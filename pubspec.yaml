@@ -1,0 +1,36 @@
+name: pertemuan_13
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Tambahan package sesuai dengan materi pertemuan 12 perkuliahan
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.7.0
+  firebase_auth: ^6.4.0
+  google_sign_in: ^7.2.0
+  email_validator: ^3.0.0
+  fluttertoast: ^9.0.0
+  http: ^1.6.0
+  shared_preferences: ^2.5.5
+  intl: ^0.20.2
+  cached_network_image: ^3.4.1
+  image_picker: ^1.2.2
+  http_parser: ^4.1.2
+  audioplayers: ^5.2.0
+  video_player: ^2.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
